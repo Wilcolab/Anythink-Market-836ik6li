@@ -82,3 +82,6 @@ router.put("/:commentId", async (req, res) => {
     res.status(500).json({ message: "Internal server error" });
   }
 });
+
+// Export the router
+module.exports = router;
