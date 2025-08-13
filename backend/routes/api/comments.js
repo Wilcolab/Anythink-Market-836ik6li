@@ -56,6 +56,12 @@ router.post("/", async (req, res) => {
   }
 });
 
+// Hey GitHub Copilot,
+// please write a route to update an existing comment
+// This route will allow users to update the content of a comment by its ID
+// It will also update the updatedAt timestamp to the current date and time
+// This is useful for keeping track of when a comment was last modified
+// The route will respond with the updated comment or an error message if the comment is not found
 // Add another endpoint for updating a comment
 router.put("/:commentId", async (req, res) => {
   const { commentId } = req.params;
